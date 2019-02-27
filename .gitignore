@@ -1,3 +1,5 @@
+#### GITHUB DEFAULT IGNORES:
+
 # Logs
 logs
 *.log
@@ -59,3 +61,8 @@ typings/
 
 # next.js build output
 .next
+
+#### USER CUSTOM IGNORES:
+
+# Ignoring package-lock.json to avoid cache issues
+package-lock.json
