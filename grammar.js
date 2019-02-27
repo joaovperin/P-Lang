@@ -17,9 +17,8 @@ module.exports = Object.freeze({
      *
      */
     'function': 'function #identifier#: #functionParams# => #statement#',
-    'functionParams': ['#functionParamsNo#', '#functionParamsYes#'],
-    'functionParamsNo': 'void',
-    'functionParamsYes': ['#identifier#', '#identifier#, #functionParamsYes#'],
+    'functionParams': ['void', '#functionWithParams#'],
+    'functionWithParams': ['#identifier#', '#identifier#, #functionWithParams#'],
     /**
      * Statement:
      *

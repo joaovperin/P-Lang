@@ -9,6 +9,8 @@ module.exports = (() => {
     var grammar = tracery.createGrammar(grammarSource);
 
     grammar.addModifiers(tracery.baseEngModifiers);
-    console.log(grammar.flatten('#language#'));
+
+    for (let i = 0; i < 5; i++)
+        console.log(grammar.flatten('#language#'));
 
 })();
